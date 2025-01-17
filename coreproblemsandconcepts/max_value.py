@@ -1,8 +1,13 @@
 array = [4, 7, 5, 9, 2]
-max = float('-inf')
 
-for item in array:
+def max_value(myarray):
+  max = float('-inf')
+
+  for item in array:
     if item > max:
-        max = item
+      max = item
 
-print(f"Max is {max}")
+  return max
+
+if __name__ == "__main__":
+  print(max_value(array))
