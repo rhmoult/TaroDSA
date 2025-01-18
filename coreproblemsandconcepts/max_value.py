@@ -1,13 +1,15 @@
 array = [4, 7, 5, 9, 2]
 
+
 def max_value(myarray):
-  max = float('-inf')
+    max = float("-inf")
 
-  for item in array:
-    if item > max:
-      max = item
+    for item in array:
+        if item > max:
+            max = item
 
-  return max
+    return max
+
 
 if __name__ == "__main__":
-  print(max_value(array))
+    print(max_value(array))
