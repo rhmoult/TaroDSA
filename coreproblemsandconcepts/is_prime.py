@@ -3,6 +3,9 @@ from sys import argv
 
 
 def is_prime(myInteger):
+    if myInteger < 2:
+        return False
+
     output = True  # Assume prime
     possible_factor = 2
     while possible_factor <= sqrt(myInteger):
