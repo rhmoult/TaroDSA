@@ -4,12 +4,10 @@ from collections import Counter
 def most_freq_char(input_string):
     input_dict = Counter(input_string)
 
-    most_frequent = ""
-    frequency = 0
-    for key in input_dict:
-        if input_dict[key] > frequency:
-            most_frequent = key
-            frequency = input_dict[key]
+    most_frequent = None
+    for char in input_string:
+        if most_frequent is None or input_dict[char] > input_dict[most_frequent]:
+            most_frequent = char
 
     return most_frequent
 
