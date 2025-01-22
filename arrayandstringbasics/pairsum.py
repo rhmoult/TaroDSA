@@ -1,4 +1,3 @@
-import pdb
 def pair_sum(myArray, target):
     myDict = {}
     for index, element in enumerate(myArray):
