@@ -1,11 +1,11 @@
 def pair_sum(myArray, target):
-    myDict = {}
+    prev_numbers = {}
     for index, element in enumerate(myArray):
-        if element not in myDict:
-            myDict[element] = index
+        if element not in prev_numbers:
+            prev_numbers[element] = index
         complement = target - element
-        if complement in myDict:
-            return (myDict[complement], index)
+        if complement in prev_numbers:
+            return (prev_numbers[complement], index)
 
 
 if __name__ == "__main__":
