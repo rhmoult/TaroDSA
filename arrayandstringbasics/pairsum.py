@@ -1,4 +1,6 @@
 def pair_sum(myArray, target):
+    if len(myArray) < 2:
+        return None
     prev_numbers = {}
     for index, element in enumerate(myArray):
         complement = target - element
