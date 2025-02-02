@@ -23,8 +23,7 @@ def fill_values(head, values):
 
 def linked_list_values(head):
     values = []
-    fill_values(head, values)
-    return values
+    return fill_values(head, values)
 
 
 print(linked_list_values(a))
