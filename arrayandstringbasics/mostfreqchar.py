@@ -1,6 +1,8 @@
 from collections import Counter
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 def most_freq_char(input_string):
     input_dict = Counter(input_string)
 
