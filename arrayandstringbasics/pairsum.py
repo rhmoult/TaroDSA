@@ -1,3 +1,5 @@
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 def pair_sum(myArray, target):
     if len(myArray) < 2:
         return None
