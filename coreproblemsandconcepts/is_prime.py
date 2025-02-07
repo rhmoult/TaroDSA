@@ -2,6 +2,8 @@ from math import sqrt
 from sys import argv
 
 
+# Time Complexity: O(sqrt(n))
+# Space Complexity: O(1)
 def is_prime(myInteger):
     if myInteger < 2:
         return False
