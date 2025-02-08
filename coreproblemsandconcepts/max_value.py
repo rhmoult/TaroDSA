@@ -1,6 +1,8 @@
 array = [4, 7, 5, 9, 2]
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 def max_value(myarray):
     max = float("-inf")
 
