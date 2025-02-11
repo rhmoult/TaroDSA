@@ -11,6 +11,8 @@ b.next = c
 c.next = d
 
 
+# Time: O(n)
+# Space: O(n)
 def fill_values(head, values):
     if head is None:
         return values
