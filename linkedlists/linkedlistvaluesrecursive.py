@@ -20,6 +20,8 @@ def fill_values(head, values):
     return fill_values(head.next, values)
 
 
+# Time: O(n)
+# Space: O(n)
 def linked_list_values(head):
     values = []
     return fill_values(head, values)
