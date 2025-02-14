@@ -1,3 +1,5 @@
+# Time: O(n)
+# Space: O(n)
 def nodes_to_array(head):
     outputArray = []
     while head is not None:
